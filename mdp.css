@@ -1,0 +1,15 @@
+script{
+	background-color: darkviolet;
+	color: darkviolet;
+	font-family: verdana;
+	font-size: 2em;
+}
+script{
+	border: 2px solid white;
+	border-radius: 26px;
+	text-align: center;
+	padding: 15px 32px;
+	background-color: darkviolet;
+	margin-top: 2%;
+	width: 300px;
+}

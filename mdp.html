@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mdp.css">
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function connexion_boucle(){
+			var i=0;
+			do{
+			var id = prompt("Donnez votre nom d'utilisateur");
+			var mdp = prompt("Donnez votre mot de passe");
+
+			if (id ="admin" && mdp == "admin") 
+			{
+				document.write("Bravo c'est le bon mot de passe");
+				break;
+			}
+			else
+			{
+				alert("Acces refusé désolé Pirate");
+				i+=1;
+
+			}while (i<3);
+			if (i==3)
+				alert("Délai dépassé");
+		}
+	}
+	
+		
+	
+	</script>
+</head>
+<body>
+<form name="form">
+<input type="button" name="c" onclick="access()" value="Se connecter">
+
+</form>
+</body>
+</html>
